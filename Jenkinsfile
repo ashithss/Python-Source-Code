@@ -9,7 +9,7 @@ node {
 
     stage('Build Image') {
   
-       app = docker.build("prajvalgh/packages")
+       app = docker.build("ashithss/packages")
     }
 
     stage('Test Image') {
